@@ -306,7 +306,7 @@ const pipes = {
 
   w: 53,
   h: 400,
-  gap: 95,
+  gap: 105,
   maxYPos: -150,
   dx: 2,
 
@@ -455,7 +455,7 @@ const medals = {
 
   draw: function () {
     if (state.current == state.over) {
-      if (score.value == 5) {
+      if (score.value >= 5 && score.value < 10) {
         ctx.drawImage(
           sprite,
           this.bronze.sX,
@@ -468,7 +468,7 @@ const medals = {
           this.h
         );
         WIN.play();
-      } else if (score.value == 10) {
+      } else if (score.value >= 10 && score.value < 20 ) {
         ctx.drawImage(
           sprite,
           this.silver.sX,
@@ -481,7 +481,7 @@ const medals = {
           this.h
         );
         WIN.play();
-      } else if (score.value == 15) {
+      } else if (score.value >= 20 && score.value < 30) {
         ctx.drawImage(
           sprite,
           this.gold.sX,
@@ -494,7 +494,7 @@ const medals = {
           this.h
         );
         WIN.play();
-      } else if (score.value == 25) {
+      } else if (score.value >= 30) {
         ctx.drawImage(
           sprite,
           this.platinum.sX,
