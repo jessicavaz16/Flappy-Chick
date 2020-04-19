@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  border: 2px solid #000;
+  display: block;
+  margin: 100px auto;
+  border-radius: 2%;
+}
+
+body {
+  background: #231903;
+  padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  text-align: center;
+}
+/* Footer */
+footer {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  color: #fff;
+}
+.f-icon {
+  padding: 20px 10px;
+  color: #fff;
+}
+.f-icon:hover {
+  color: #eee;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.text {
+  color: #eee;
+  margin: 50px auto;
+  width: 70%;
+  font-family: "McLaren", cursive;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.navbar-brand {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: "McLaren", cursive;
+}
